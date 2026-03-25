@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url();
+body{
+    /*background-color: black;*/
+   /* background-color: rgb(0, 0, 0);*/
+   /* background-color: #0000;*/
+   /*background: linear-gradient(white, white, black);*/
+   /*background: radial-gradient(green,white)*/
+   background-image: url("../recursos/img/fundo.jpg");
+   background-size:100%;
+   background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+img#persona{
+    
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100px;
+    border-color: rgb(0, 255, 34);
+    border: inset rgb(24, 228, 24) 5px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.3);
+
+
+  
+
+
+
+
+
+}
+.titulos{
+
+    color:rgb(11, 247, 117);
+    text-align: center;
+
+}
+
+h1{
+
+
+    font-size: 60px;
+    font-weight:300;
+    font-style:normal ;
+    font-family: "Rubik", sans-serif;
+
+    margin-bottom: 0px;
+
+}
+h2{
+
+        font-size: 25px;
+     font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style:normal;
+
+    margin: 0px 0px 50px 0px;
+
+
+}
+figure{
+
+    display: flex;
+    justify-content: center;
+
+
+
+
+}
+.botao{
+
+    background-color: rgb(31, 158, 116);
+    border: none;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgb(rgb(122, 197, 151));
+    transition: 0,3;
+    cursor: pointer;
+
+
+
+}
+
+.botao:hover{
+
+    background-color: rgb(7, 235, 26);
+    font-size: 40px;
+
+
+
+
+}
+.material-symbols-outlined {
+   color: blue;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+    
+}
+#rodape{
+
+    display: flex;
+    margin-top: 10px;
+
+}
+.icones{
+
+    margin: 20px;
+
+
+}
+svg:hover{
+
+    fill: rgb(0, 255, 85);
+    cursor: pointer;
+    transform: scale(1.2);
+
+
+
+
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
