@@ -131,7 +131,7 @@ svg:hover{
 
 
 }
-.material-symbols-outlined {
+.material-symbols-outlined{
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
@@ -145,6 +145,48 @@ svg:hover{
     top: 2%;
     right: 10px;
     
+
+
+}
+
+@media(max-width: 800px){
+
+    .botao{
+
+        width: 450px;
+        
+
+    }
+
+
+
+
+}
+
+@media(max-width: 450px){
+
+    .botao{
+
+        width: 350px;
+
+    }
+
+
+
+
+}
+
+@media(max-width: 700px){
+
+    .botao{
+
+        width: 500px;
+        
+
+
+    }
+
+
 
 
 }
